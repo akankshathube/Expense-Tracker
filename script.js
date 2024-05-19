@@ -1,5 +1,3 @@
-// script.js
-
 document.addEventListener("DOMContentLoaded", () => {
   const addButton = document.getElementById("add-button");
   const clearButton = document.getElementById("clear-button");
