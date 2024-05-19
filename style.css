@@ -1,0 +1,72 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+}
+
+.container {
+  background: #fcf7f8;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.text-boxes {
+  text-align: left;
+}
+
+.text-boxes label {
+  display: block;
+  margin: 10px 0;
+}
+
+.text-boxes input {
+  width: calc(100% - 22px); /* Adjust width considering padding and border */
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button-group button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a442d;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+}
+
+.total-amount {
+  margin-top: 20px;
+}
+
+.total-amount h2 {
+  font-size: 20px;
+  color: #333;
+}

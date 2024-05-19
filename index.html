@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Expense-Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Expense Tracker</h1>
+
+      <div class="text-boxes">
+        <label>
+          Item Name:
+          <input type="text" id="item-name" placeholder="Enter Item Name" />
+        </label>
+        <br />
+        <label>
+          Item Amount:
+          <input
+            type="number"
+            id="item-amount"
+            placeholder="Enter Item Amount"
+          />
+        </label>
+        <br />
+
+        <div class="button-group">
+          <button id="add-button">Add Item</button>
+          <button id="clear-button">Clear All</button>
+        </div>
+      </div>
+
+      <div class="total-amount">
+        <h2>Total Amount: Rs <span id="total">0.00</span></h2>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
